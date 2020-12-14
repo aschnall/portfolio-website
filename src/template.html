@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Aaron Schnall</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="aschnall, javascript, html, css, web developer" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Aaron Schnall | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Aaron Schnall</span>
+          <br />
+          I'm the Developer you need.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Know More</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I am a self-taught coder who is passionate about web development. After graduating college, my first few years of work experience were in advertising technology where I worked closely with clients to deploy tracking pixels for their marketing campaigns. This piqued my interest and desire to learn how the web works.
+              </p>
+              <p class="about-wrapper__info-text">
+                My newfound curiosity led me to enroll in several web development courses where I learned many of the technologies and frameworks that power the web today. As a self-motivated, dedicated developer, I am so excited to be a part of this growing field. Check out some of my projects below!
+              </p>
+              <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Budget Tracker</h3>
+                <h5><strong>Utilizes: React, Node.js, Express, PostgreSQL</strong></h5>
+                <div>
+                  <p class="mb-4">
+                    A full stack app using React.js for the front-end, Express for the back-end, and PostgreSQL for the database. Features a hashed login and registration system. Once signed in a user can input dates, descriptions, and amounts for all of their income and expenses.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://budget-tracker-000.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/aschnall/budget-tracker">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/budgetappshot.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+                    <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">General Knowledge Trivia</h3>
+                <h5><strong>Utilizes: React, Redux, Sass</strong></h5>
+                <div>
+                  <p class="mb-4">
+                    A game of general knowledge trivia that displays multiple choice questions to the user one after another and provides instant feedback upon selecting an answer. The app is built in React.js, and uses Redux + Redux-Thunk middleware to pull questions from the Open Trivia Database API. It is styled using the CSS pre-processor, Sass, and adheres to proper responsive design techniques.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://general-knowledge-trivia.netlify.app/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/aschnall/trivia-redux">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/triviaappshot.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Smart Brain</h3>
+                <h5><strong>Utilizes: React, Node.js, Express, PostgreSQL</strong></h5>
+                <div>
+                  <p class="mb-4">
+                    A full-stack app featuring registration, sign-in, and face detection! Users can create an account and submit images of faces to be automatically detected. The face dimensions are fetched via the Clarifai API with some custom configuration and CSS to style the facebox. Whenever a user submits an image, their image count will be incremented and saved in the PostgreSQL database for the next time they sign in. 
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://smart-brain-aschnall.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/aschnall/smart-brain">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/smartbrainappshot.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">5 Day Forecast</h3>
+                <h5><strong>Utilizes: React, Redux, HTML, CSS</strong></h5>
+                <div>
+                  <p class="mb-4">
+                    A react app utilizing redux for state management. The app fetches data from the Open Weather API and displays a five day forecase for the city that the user inputs in the search bar.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://weather-5day-forecast.netlify.app/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/aschnall/weather-forecast">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/weatherappshot.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Movie Database Search</h3>
+                <h5><strong>Utilizes: React, React Hooks, HTML, CSS</strong></h5>
+                <div>
+                  <p class="mb-4">
+                    A scaled down version of IMDB that allows a user to search for a movie title and be given back a list of relevant movies. Each movie in the list contains a poster, title, year, synopsis, starring actors, director, user score, and an embedded trailer all pulled from the TMDB API. This is a React.js app utilizing React hooks.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://moviedatabase-search.netlify.app/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/aschnall/movie-search">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/movieappshot.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Video Search App</h3>
+                <h5><strong>Utilizes: React, React Hooks, HTML, CSS</strong></h5>
+                <div>
+                  <p class="mb-4">
+                    Like the project above, this video search app is a scaled down version of another popular site, YouTube. Utilizing the YouTube API, this app fetches videos based on a users' input. The app features a sidebar of relevant videos on the right side along with a video player in the center to play the selected video on the screen. React hooks are leveraged to manage state. 
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://video-search-032.netlify.app/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/aschnall/yt-app">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/videoappshot.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">To Do List</h3>
+                <h5><strong>Utilizes: JQuery, Sass, HTML</strong></h5>
+                <div>
+                  <p class="mb-4">
+                    A to do list to help keep track of all your tasks! Add a task, check it off, or delete a task entirely. Functionality added with JQuery and styled with Sass.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://aschnall.github.io/todo/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/aschnall/todo">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/todoappshot.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Hangman</h3>
+                <h5><strong>Utilizes: Javascript, HTML, CSS</strong></h5>
+                <div>
+                  <p class="mb-4">
+                    A sports-themed game of hangman! Can you guess the sport correctly before your lives expire? The project features Javascript DOM manipulation, along with HTML and CSS styling.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://aschnall.github.io/hangman/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/aschnall/hangman">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/hangmanappshot.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            Phone: <a href="tel:1-484-995-1967"><strong>(484) 995-1967</strong></a>
+          </p>
+          <p class="contact-wrapper__text">
+            Email: <a href="mailto:aschnall03@gmail.com"><strong>aschnall03@gmail.com</strong></a>
+          </p>
+<!--           <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:example@email.com"
+            >Call to Action</a> -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+<!--           <a href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a href="#!" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a> -->
+          <a href="https://www.linkedin.com/in/aaron-schnall-82b729132/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/aschnall/" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
